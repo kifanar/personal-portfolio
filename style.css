@@ -27,3 +27,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .bio > p {
+    letter-spacing: 0.9px;
+
+  }
