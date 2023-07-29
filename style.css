@@ -1,10 +1,14 @@
+body{
+    background-color: black;
+  }
+
 .home {
     padding-top: calc(1 / 2 * 100%); /* aspect ratio 2:1 */
     background-size: cover;
     background-position: center;
   }
 
-  .name {
+  .headings {
     /* overlay the inner <div> exactly on top of its parent */
     top: 0;
     left: 0;
@@ -12,7 +16,14 @@
     bottom: 0;
   }
 
-  .name > h1 {
+  .headings > h1 {
     font-size: 50px;
     font-family:'Trebuchet MS';
+  }
+
+  .aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
